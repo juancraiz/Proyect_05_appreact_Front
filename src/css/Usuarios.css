@@ -1,0 +1,24 @@
+.container-users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.table {
+    background-color: white;  /* Fondo blanco */
+    border: 2px solid black;  /* Borde negro general */
+}
+
+.table th, .table td {
+    border: 2px solid black !important; /* Líneas negras en la tabla */
+    text-align: center;
+}
+
+.table thead {
+    background-color: #ddd; /* Un gris claro para destacar el encabezado */
+}
